@@ -8,7 +8,9 @@ var str2= [];
 function getText() {
   boxvalue = document.getElementById('box').value;
   str1.push(boxvalue);
-  console.log(str1);
+    var arr2 = str1.join();
+    var arr3 = [...arr2];
+  console.log(arr3);
   return false;
 }
 
@@ -17,7 +19,9 @@ function getText() {
      function getChar() {
          Bvalue = document.getElementById('box2').value;
         str2.push(Bvalue);
-        console.log(str2);
+        var arr4 =str2.join();
+        var arr5 = [...arr4];
+        console.log(arr5);
         return false;
      }     
              var listen = document.getElementById('bt1').addEventListener('click',function(){

@@ -2,14 +2,92 @@
 header,main,footer{
     margin:auto;
     text-align: center;
+    
 }
 
-h1 {
-    color:#25F0DC;
-    margin: auto;
-    font-size: 16px;
-}    
 
 input, button {
     margin: auto;
+}
+.VAPORWAVE {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    min-height: 600px;
+    z-index: 0;
+    background-color: lightpink;
+
+}
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    left:600px
+  }
+.VAPORWAVE:before {
+    position: relative;
+    z-index: 1;
+    opacity: 0.7;
+    
+  }
+  .VAPORWAVE.content {
+      margin:auto;
+      max-width:1000px;
+      position: relative;
+  }
+.VAPORWAVE p {
+    z-index: 2;
+    position: relative;
+    margin-left: 200px;
+    color: #6efcbb;
+    font-weight: bold;
+    font-size: 42pt;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 0px #4ab18e;
+    line-height: 120px;
+
+}
+img.spooky{
+    position: absolute;
+    left: 400px;
+    top :82px;
+}
+img.statue {
+    position: absolute; 
+    left: 200px;
+    top:100px;
+    width: 250px;
+}
+img.checker {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 600px;
+    overflow-y: hidden;
+    z-index: -1;
+    transform: matrix3d(1,0,0.00,0,0.00,0.5,0.87,-0.001,0,-0.87,0.5,0,0,0,0,1);
+}
+img.palm {
+    z-index: 1;
+    width: 400px;
+    position: absolute;
+    left: -100px;
+    top: -55px;
+ 
+    
+}
+img.palmrev {
+    z-index: 1;
+    width: 400px;
+    transform: scaleX(-1);
+    position: absolute;
+    right: -100px;
+    
 }
