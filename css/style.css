@@ -4,7 +4,20 @@ header,main,footer{
     text-align: center;
     
 }
+.gamedisplay{
+    color: #6efcbb;
+    z-index: 2;
+    position: relative;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 0px #4ab18e;
+    line-height:  10px;
 
+
+
+}
 
 input, button {
     margin: auto;
@@ -86,8 +99,9 @@ img.palm {
 img.palmrev {
     z-index: 1;
     width: 400px;
-    transform: scaleX(-1);
+     transform: scaleX(-1); 
     position: absolute;
     right: -100px;
+    top:-55px;
     
 }
