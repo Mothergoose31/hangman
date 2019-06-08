@@ -4,7 +4,7 @@ header,main,footer{
     text-align: center;
     
 }
-.gamedisplay{
+#gamedisplay{
     color: #6efcbb;
     z-index: 2;
     position: relative;
@@ -14,12 +14,9 @@ header,main,footer{
     font-family: sans-serif;
     text-shadow: 4px 4px 0px #4ab18e;
     line-height:  10px;
-
-
-
 }
 
-input, button {
+input {
     margin: auto;
 }
 .VAPORWAVE {
@@ -33,28 +30,18 @@ input, button {
     background-color: lightpink;
 
 }
-button{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    left:600px
-  }
+
 .VAPORWAVE:before {
     position: relative;
     z-index: 1;
     opacity: 0.7;
     
-  }
-  .VAPORWAVE.content {
-      margin:auto;
-      max-width:1000px;
-      position: relative;
-  }
+}
+.VAPORWAVE.content {
+    margin:auto;
+    max-width:1000px;
+    position: relative;
+}
 .VAPORWAVE p {
     z-index: 2;
     position: relative;
@@ -93,13 +80,12 @@ img.palm {
     position: absolute;
     left: -100px;
     top: -55px;
- 
     
 }
 img.palmrev {
     z-index: 1;
     width: 400px;
-     transform: scaleX(-1); 
+    transform: scaleX(-1); 
     position: absolute;
     right: -100px;
     top:-55px;
